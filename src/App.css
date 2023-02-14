@@ -1,0 +1,188 @@
+
+.navbar{
+    top: 0;
+    margin: 20px;
+    background-color: white;
+  }
+
+.navbar a{
+  color: black;
+  text-decoration: none;
+  margin: 20px;
+}
+
+.navbar a.right{
+  float: right;
+  margin-top: 130px;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: green;
+}
+
+
+a:visited{
+  text-decoration: none;
+}
+
+
+a{
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+a.right{
+  color: green;
+  float: right;
+}
+
+h1{
+  text-align: center;
+}
+
+.help ul{
+  text-align: center;
+  list-style-type: none;
+}
+
+.help li{
+  margin: 10px;
+}
+
+.help li:hover{
+  transform: scale(1.5);
+  color: firebrick;
+}
+
+.help img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.help img:hover{
+  transform: scale(1.5);
+  transition: 2s;
+}
+
+p {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, #root {
+  background-color: #a2cbe2ec;
+  color: #0f9302;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  margin: 0;
+  overflow: hidden;
+}
+
+h1 {
+  margin: 20px 0 0;
+}
+
+.game-container {
+  padding: 20px 30px;
+  position: relative;
+  margin: auto;
+  height: 350px;
+  width: 450px;
+}
+
+.figure-container {
+  fill: transparent;
+  stroke: black;
+  stroke-width: 10px;
+  stroke-linecap: round;
+}
+
+.figure-part {
+  display: none;
+}
+
+.wrong-letters-container {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.wrong-letters-container p {
+  margin: 0 0 10px;
+}
+
+.wrong-letters-container span {
+  font-size: 24px;
+}
+
+.word {
+  display: flex;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.letter {
+  border-bottom: 3px solid #b92929;
+  display: inline-flex;
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 3px;
+  height: 50px;
+  width: 20px;
+}
+
+.popup-container {
+  background-color: #a2cbe2ec;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  /* display: flex; */
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup {
+  background: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 15px 10px 3px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.popup button {
+  cursor: pointer;
+  background-color: #a2cbe2ec;
+  color: #2aa306;
+  border: 0;
+  margin-top: 20px;
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+.popup button:active {
+  transform: scale(0.98);
+}
+
+.popup button:focus {
+  outline: 0;
+}
+

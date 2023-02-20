@@ -1,3 +1,20 @@
+Hangman React App //
+
+created by Oliver Roe 
+
+This app is a hangman game built on the react framework. 
+
+// Installation
+
+Download the files from the gitHub repo. From the terminal type change directory by typing cd (and the path of the folder the app was downloaded into). Then type npm install which will install all the missing node_modules. 
+
+From here type npm start and the project will run. 
+
+Type letters into the interface and try to guess the word within the game. If you win/lose the game will alert you. There is a navigation bar at the top that displays a help button if game instructions are required. 
+
+
+To run the file 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
